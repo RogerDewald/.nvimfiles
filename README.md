@@ -1,6 +1,6 @@
 # My dotfiles
 
-but only for my NeoVim config, and maybe tmux
+Only for my NeoVim config, and maybe tmux
 
 ## Cleaning up cache
 if you already have an nvim config, you can wipe it with these commands: 
@@ -10,21 +10,15 @@ mv ~/.local/share/nvim{,.bak}
 mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
 ```
+## Dependencies from APT repo
 
-sudo apt update
+- curl
+- g++
+- git
+- unzip
+- npm
 
-sudo apt upgrade
-
-sudo apt install curl
-
-sudo apt install g++
-
-sudo apt install git
-
-sudo apt install unzip
-
-sudo apt install npm
-
+# Dependencies from other sites
 install go from https://go.dev/dl/
 
 install ripgrep from https://github.com/BurntSushi/ripgrep
