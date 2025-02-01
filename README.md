@@ -25,7 +25,7 @@ mv ~/.cache/nvim{,.bak}
 - neovim from https://neovim.io
 - nvm from https://github.com/nvm-sh/nvm
 
-## Useage
+## Usage
 ```bash
 git clone https://github.com/RogerDewald/LazyNeovimConfig.git ~/.config/nvim
 ```
