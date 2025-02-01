@@ -1,4 +1,10 @@
-if you already have an nvim config, you can wipe it with these commands: mv ~/.config/nvim{,.bak} mv ~/.local/share/nvim{,.bak} mv ~/.local/state/nvim{,.bak} mv ~/.cache/nvim{,.bak}
+# My dotfiles, but only for my Neovim Config and maybe tmux
+
+## Cleaning up cache
+if you already have an nvim config, you can wipe it with these commands: 
+---bash
+mv ~/.config/nvim{,.bak}
+--- mv ~/.local/share/nvim{,.bak} mv ~/.local/state/nvim{,.bak} mv ~/.cache/nvim{,.bak}
 
 sudo apt update
 
