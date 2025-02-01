@@ -29,3 +29,8 @@ mv ~/.cache/nvim{,.bak}
 ```bash
 git clone https://github.com/RogerDewald/LazyNeovimConfig.git ~/.config/nvim
 ```
+
+```bash
+cd .nvimfiles/
+stow nvim
+```
