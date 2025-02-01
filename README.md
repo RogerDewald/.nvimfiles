@@ -17,15 +17,15 @@ mv ~/.cache/nvim{,.bak}
 - git
 - unzip
 - npm
+- stow
 
-# Dependencies from other sites
+## Dependencies from other sites
 - go from https://go.dev/dl/
 - ripgrep from https://github.com/BurntSushi/ripgrep
 - neovim from https://neovim.io
 - nvm from https://github.com/nvm-sh/nvm
 
-nvm install 18
-
-nvm use v18
-
+## Useage
+```bash
 git clone https://github.com/RogerDewald/LazyNeovimConfig.git ~/.config/nvim
+```
