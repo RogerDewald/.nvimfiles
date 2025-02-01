@@ -19,13 +19,10 @@ mv ~/.cache/nvim{,.bak}
 - npm
 
 # Dependencies from other sites
-install go from https://go.dev/dl/
-
-install ripgrep from https://github.com/BurntSushi/ripgrep
-
-install neovim from https://neovim.io
-
-install nvm from https://github.com/nvm-sh/nvm
+- go from https://go.dev/dl/
+- ripgrep from https://github.com/BurntSushi/ripgrep
+- neovim from https://neovim.io
+- nvm from https://github.com/nvm-sh/nvm
 
 nvm install 18
 
