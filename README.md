@@ -20,9 +20,12 @@ mv ~/.cache/nvim{,.bak}
 - stow
 
 ## Dependencies from other sites
-- go from https://go.dev/dl/
+
 - ripgrep from https://github.com/BurntSushi/ripgrep
 - neovim from https://neovim.io
+
+## Optinal downloads, depending on your environment
+- go from https://go.dev/dl/
 - nvm from https://github.com/nvm-sh/nvm
 
 ## Usage
@@ -31,6 +34,6 @@ git clone https://github.com/RogerDewald/LazyNeovimConfig.git ~/.config/nvim
 ```
 
 ```bash
-cd .nvimfiles/
+cd ~/.nvimfiles/
 stow nvim
 ```
