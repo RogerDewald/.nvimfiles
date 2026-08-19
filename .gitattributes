@@ -1,0 +1,3 @@
+# Read by Linux shells and neovim. A CRLF checkout turns a script into
+# "bad interpreter: /usr/bin/env bash^M".
+* text=auto eol=lf
