@@ -44,7 +44,7 @@ plugin is a new file in that directory — nothing else needs editing.
 
 | Dependency | Why | Install |
 |---|---|---|
-| **neovim >= 0.10** | Uses `vim.uv`, `vim.diagnostic.config`, and mason-lspconfig `handlers` | [neovim.io](https://neovim.io) — apt's build is usually too old |
+| **neovim >= 0.10** | 0.9 is the hard floor (the pinned Telescope 0.1.6 needs it), but current nvim-lspconfig and Mason expect 0.10+, so treat 0.10 as the real minimum | [neovim.io](https://neovim.io) — apt's build is usually too old |
 | `git` | lazy.nvim bootstraps itself by cloning, and Telescope's `git_files` needs it | apt |
 | `stow` | Symlinks this repo into `~/.config/nvim` | apt |
 | **C/C++ compiler** (`build-essential`, `g++`) | nvim-treesitter compiles every parser locally | apt |
